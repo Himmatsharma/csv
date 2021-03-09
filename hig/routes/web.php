@@ -19,4 +19,4 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
 
-Route::post('csv', [App\Http\Controllers\HomeController::class, 'csvToArray'])->name('csvToArray');
+Route::post('csv', [App\Http\Controllers\HomeController::class, 'csvToArray'])->name('csv-to-array');

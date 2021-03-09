@@ -42,7 +42,7 @@
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
                             <div>
-                                <form action="<?php echo e(route('csvToArray')); ?>" method="post" enctype="multipart/form-data">
+                                <form action="<?php echo e(route('csv-to-array')); ?>" method="post" enctype="multipart/form-data">
                                     <?php echo csrf_field(); ?>
                                     <label>Select file</label>
                                     <input type="file" name="upload_file">

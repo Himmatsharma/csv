@@ -1,5 +1,4 @@
 <?php $__env->startSection('content'); ?>
-
 <section class="form3 cid-spXmYdSD8D" id="form3-r">
     <div class="container-fluid">
         <div class="row justify-content-center">
@@ -13,11 +12,10 @@
                 <form action="<?php echo e(route('login')); ?>" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="kTUKFQDzKbP2mgO+wMJaDmrzhG9oxDMKGkpsy5WO04GnbhtdW76O+LUrM6cxfHr4j91/yRjGulA4ZOgSBxTG54hhalmDAU7Peq3ztCCZ65oZWOjQNXtN5bmA9Z4qyg4a">
                     <?php echo csrf_field(); ?>
                     <div class="row">
-
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out
                             the form!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
-                            problem!</div>
+            problem!</div>
                     </div>
                     <div class="dragArea row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -92,8 +90,6 @@ unset($__errorArgs, $__bag); ?>
         </div>
     </div>
 </section>
-
-
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.hig', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\xampp\htdocs\hig\resources\views/auth/login.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.hig', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\xampp\htdocs\hig\resources\views\auth\login.blade.php ENDPATH**/ ?>

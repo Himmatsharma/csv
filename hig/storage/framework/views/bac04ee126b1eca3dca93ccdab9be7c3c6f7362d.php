@@ -84,4 +84,4 @@
     </div>
 </body>
 </html>
-<?php /**PATH E:\xampp\htdocs\hig\resources\views/layouts/app.blade.php ENDPATH**/ ?>
+<?php /**PATH E:\xampp\htdocs\hig\resources\views\layouts\app.blade.php ENDPATH**/ ?>
